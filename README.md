@@ -8,7 +8,7 @@ like GitHub Issues, GitLab, JIRA, and others.
 
 The latest report is always available in **[benchmark.md](benchmark.md)**.
 
-It is created by the running on standard GitHub Action.
+> It is created by the running on standard GitHub Action.
 
 ## How it works
 
