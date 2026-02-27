@@ -1,0 +1,60 @@
+name: Benchmark
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  benchmark:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up target projects
+        run: bash scripts/setup.sh
+
+      - name: Run benchmark
+        run: bash scripts/benchmark.sh
+
+      - name: Copy report to benchmark.md
+        run: |
+          REPORT=$(ls reports/todo-registrar-*.md | sort | tail -1)
+          cp "$REPORT" benchmark.md
+          echo "REPORT_FILE=$REPORT" >> "$GITHUB_ENV"
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Create branch and commit
+        id: commit
+        run: |
+          BRANCH="benchmark-$(date +%y-%m-%d)"
+          echo "BRANCH=$BRANCH" >> "$GITHUB_ENV"
+          git checkout -B "$BRANCH"
+          git add benchmark.md
+          git commit -m "benchmark: update report $(date +%Y-%m-%d)"
+          git push -u origin "$BRANCH" --force
+
+      - name: Create pull request
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          VERSION=$(python3 -c "import json; print(json.load(open('config/projects.json'))['todo_registrar_version'])")
+          DATE=$(date +%Y-%m-%d)
+          PR_URL=$(gh pr list --head "$BRANCH" --json url --jq '.[0].url' 2>/dev/null || true)
+          if [[ -n "$PR_URL" ]]; then
+            echo "Pull request already exists: $PR_URL"
+          else
+            gh pr create \
+              --title "Benchmark report — todo-registrar ${VERSION} (${DATE})" \
+              --body "Automated benchmark report for [TODO Registrar ${VERSION}](https://github.com/Aeliot-Tm/todo-registrar/releases/tag/${VERSION}) generated on ${DATE}." \
+              --base main \
+              --head "$BRANCH"
+          fi
