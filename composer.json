@@ -1,0 +1,14 @@
+{
+    "name": "aeliot/todo-registrar-benchmark",
+    "description": "Performance benchmark for TODO-registrar",
+    "license": "MIT",
+    "require": {
+        "php": "^8.2"
+    },
+    "require-dev": {
+        "aeliot/todo-registrar-contracts": "*"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}

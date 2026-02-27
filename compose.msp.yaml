@@ -1,13 +1,4 @@
 services:
-  benchmark:
-    build: .
-    # Mount the project at the same absolute path so that bind-mounts passed to
-    # inner "docker run" calls resolve correctly on the host Docker daemon.
-    volumes:
-      - ${PWD}:${PWD}
-      - /var/run/docker.sock:/var/run/docker.sock
-    working_dir: ${PWD}
-
   mcp_serena:
     # documentation: https://github.com/oraios/serena/blob/main/DOCKER.md
     image: ghcr.io/oraios/serena:latest
