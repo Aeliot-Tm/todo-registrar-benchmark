@@ -30,13 +30,14 @@ Measured metrics per project:
 All tools (`python3`, `bc`, `git`, Docker CLI) run inside a container defined in [Dockerfile](Dockerfile).
 The container shares the host Docker socket so it can pull and run the `todo-registrar` image internally.
 
-```bash
-# 1. Clone target projects (one-time setup, skipped if already done)
-docker compose run --rm benchmark bash scripts/setup.sh
-
-# 2. Run benchmark — writes a report to reports/
-docker compose run --rm benchmark bash scripts/benchmark.sh
-```
+1. Clone target projects (one-time setup, skipped if already done)
+   ```shell
+   docker compose run --rm benchmark bash scripts/setup.sh
+   ```
+2. Run benchmark — writes a report to reports/
+   ```shell
+   docker compose run --rm benchmark bash scripts/benchmark.sh
+   ```
 
 The report is saved to `reports/todo-registrar-{version}_{date}.md`.
 
