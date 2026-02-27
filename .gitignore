@@ -1,2 +1,11 @@
 .idea
 .mcp/serena/config/logs/
+
+/projects/*/
+!/projects/.gitkeep
+
+/reports/
+!/reports/.gitkeep
+
+/vendor/
+/composer.lock
