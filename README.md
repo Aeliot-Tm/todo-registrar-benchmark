@@ -65,16 +65,17 @@ Then run `bash scripts/setup.sh` to clone the new project.
 ### Project structure
 
 ```
+.github/workflows/
+  benchmark.yml          — GitHub Actions workflow (manual trigger)
 config/
   projects.json          — list of projects and todo-registrar version to benchmark
   .todo-registrar.php    — stub config (no real issue tracker, records stats to JSON)
 scripts/
   setup.sh               — clone target projects locally
   benchmark.sh           — run benchmark and write a Markdown report to reports/
+projects/                — projects to be analized (gitignored)
 reports/                 — generated reports (gitignored)
 benchmark.md             — latest report committed to the repository
-.github/workflows/
-  benchmark.yml          — GitHub Actions workflow (manual trigger)
 ```
 
 **License**: [MIT](LICENSE)
