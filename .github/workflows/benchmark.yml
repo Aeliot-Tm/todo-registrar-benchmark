@@ -25,6 +25,7 @@ jobs:
         run: |
           REPORT=$(ls reports/todo-registrar-*.md | sort | tail -1)
           cp "$REPORT" benchmark.md
+          printf '\n> Created with standard GitHub Action\n' >> benchmark.md
           echo "REPORT_FILE=$REPORT" >> "$GITHUB_ENV"
 
       - name: Configure git
