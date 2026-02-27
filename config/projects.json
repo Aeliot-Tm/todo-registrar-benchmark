@@ -5,15 +5,92 @@
             "slug": "symfony",
             "display_name": "Symfony",
             "repo_url": "https://github.com/symfony/symfony",
-            "version": "7.2.3",
-            "git_tag": "v7.2.3"
+            "version": "7.4.4",
+            "git_tag": "v7.4.4"
+        },
+        {
+            "slug": "api-platform",
+            "display_name": "API Platform",
+            "repo_url": "https://github.com/api-platform/core",
+            "version": "4.2.15",
+            "git_tag": "v4.2.15"
+        },
+        {
+            "slug": "doctrine-orm",
+            "display_name": "Doctrine ORM",
+            "repo_url": "https://github.com/doctrine/orm",
+            "version": "3.6.2",
+            "git_tag": "3.6.2"
+        },
+        {
+            "slug": "sylius",
+            "display_name": "Sylius",
+            "repo_url": "https://github.com/Sylius/Sylius",
+            "version": "2.1.11",
+            "git_tag": "v2.1.11"
+        },
+        {
+            "slug": "typo3",
+            "display_name": "TYPO3",
+            "repo_url": "https://github.com/TYPO3/typo3",
+            "version": "13.4.25",
+            "git_tag": "v13.4.25"
+        },
+        {
+            "slug": "shopware",
+            "display_name": "Shopware",
+            "repo_url": "https://github.com/shopware/shopware",
+            "version": "6.7.7.1",
+            "git_tag": "v6.7.7.1"
+        },
+        {
+            "slug": "prestashop",
+            "display_name": "PrestaShop",
+            "repo_url": "https://github.com/PrestaShop/PrestaShop",
+            "version": "9.0.3",
+            "git_tag": "9.0.3"
+        },
+        {
+            "slug": "akeneo",
+            "display_name": "Akeneo PIM",
+            "repo_url": "https://github.com/akeneo/pim-community-dev",
+            "version": "2026-2",
+            "git_tag": "2026-2"
         },
         {
             "slug": "laravel",
             "display_name": "Laravel Framework",
             "repo_url": "https://github.com/laravel/framework",
-            "version": "11.41.3",
-            "git_tag": "v11.41.3"
+            "version": "12.53.0",
+            "git_tag": "v12.53.0"
+        },
+        {
+            "slug": "magento",
+            "display_name": "Magento 2",
+            "repo_url": "https://github.com/magento/magento2",
+            "version": "2.4.8",
+            "git_tag": "2.4.8"
+        },
+        {
+            "slug": "moodle",
+            "display_name": "Moodle",
+            "repo_url": "https://github.com/moodle/moodle",
+            "version": "4.5.8",
+            "git_tag": "v4.5.8"
+        },
+        {
+            "slug": "nextcloud",
+            "display_name": "Nextcloud",
+            "repo_url": "https://github.com/nextcloud/server",
+            "version": "32.0.6",
+            "git_tag": "v32.0.6"
+        },
+        {
+            "slug": "drupal",
+            "display_name": "Drupal",
+            "repo_url": "https://github.com/drupal/drupal",
+            "version": "11.3.3",
+            "git_tag": "11.3.3"
         }
     ]
 }
