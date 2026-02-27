@@ -5,8 +5,8 @@
             "slug": "symfony",
             "display_name": "Symfony",
             "repo_url": "https://github.com/symfony/symfony",
-            "version": "7.2.3",
-            "git_tag": "v7.2.3"
+            "version": "7.4.4",
+            "git_tag": "v7.4.4"
         },
         {
             "slug": "api-platform",
@@ -19,22 +19,22 @@
             "slug": "doctrine-orm",
             "display_name": "Doctrine ORM",
             "repo_url": "https://github.com/doctrine/orm",
-            "version": "3.5.8",
-            "git_tag": "3.5.8"
+            "version": "3.6.2",
+            "git_tag": "3.6.2"
         },
         {
             "slug": "sylius",
             "display_name": "Sylius",
             "repo_url": "https://github.com/Sylius/Sylius",
-            "version": "2.2.2",
-            "git_tag": "v2.2.2"
+            "version": "2.1.11",
+            "git_tag": "v2.1.11"
         },
         {
             "slug": "laravel",
             "display_name": "Laravel Framework",
             "repo_url": "https://github.com/laravel/framework",
-            "version": "11.41.3",
-            "git_tag": "v11.41.3"
+            "version": "12.53.0",
+            "git_tag": "v12.53.0"
         },
         {
             "slug": "magento",
