@@ -1,5 +1,5 @@
 {
-    "todo_registrar_version": "3.4.2",
+    "todo_registrar_version": "3.4.3",
     "projects": [
         {
             "slug": "symfony",
