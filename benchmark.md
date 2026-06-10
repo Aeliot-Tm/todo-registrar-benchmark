@@ -3,23 +3,23 @@
 - **Version:** [4.0.0](https://github.com/Aeliot-Tm/todo-registrar/releases/tag/4.0.0)
 - **Date:** 2026-06-10
 - **Environment:** Docker (`ghcr.io/aeliot-tm/todo-registrar:4.0.0`), PHP 8.2.31
-- **CPU:** AMD EPYC 9V74 80-Core Processor (4 cores)
+- **CPU:** AMD EPYC 7763 64-Core Processor (4 cores)
 - **RAM:** 16 GB
 
 | Project | Version | PHP Files | PHP Lines | Comments | TODOs | Time | Peak Memory |
 |---------|---------|----------:|----------:|---------:|------:|-----:|------------:|
-| [Symfony](https://github.com/symfony/symfony) | [7.4.4](https://github.com/symfony/symfony/releases/tag/v7.4.4) | 0 | 0 | 0 | 0 | .2 s | 0 MB |
-| [API Platform](https://github.com/api-platform/core) | [4.2.15](https://github.com/api-platform/core/releases/tag/v4.2.15) | 0 | 0 | 0 | 0 | .2 s | 0 MB |
-| [Doctrine ORM](https://github.com/doctrine/orm) | [3.6.2](https://github.com/doctrine/orm/releases/tag/3.6.2) | 0 | 0 | 0 | 0 | .2 s | 0 MB |
-| [Sylius](https://github.com/Sylius/Sylius) | [2.1.11](https://github.com/Sylius/Sylius/releases/tag/v2.1.11) | 0 | 0 | 0 | 0 | .2 s | 0 MB |
-| [TYPO3](https://github.com/TYPO3/typo3) | [13.4.25](https://github.com/TYPO3/typo3/releases/tag/v13.4.25) | 0 | 0 | 0 | 0 | .2 s | 0 MB |
-| [Shopware](https://github.com/shopware/shopware) | [6.7.7.1](https://github.com/shopware/shopware/releases/tag/v6.7.7.1) | 0 | 0 | 0 | 0 | .2 s | 0 MB |
-| [PrestaShop](https://github.com/PrestaShop/PrestaShop) | [9.0.3](https://github.com/PrestaShop/PrestaShop/releases/tag/9.0.3) | 0 | 0 | 0 | 0 | .2 s | 0 MB |
-| [Akeneo PIM](https://github.com/akeneo/pim-community-dev) | [2026-2](https://github.com/akeneo/pim-community-dev/releases/tag/2026-2) | 0 | 0 | 0 | 0 | .2 s | 0 MB |
-| [Laravel Framework](https://github.com/laravel/framework) | [12.53.0](https://github.com/laravel/framework/releases/tag/v12.53.0) | 0 | 0 | 0 | 0 | .2 s | 0 MB |
-| [Magento 2](https://github.com/magento/magento2) | [2.4.8](https://github.com/magento/magento2/releases/tag/2.4.8) | 0 | 0 | 0 | 0 | .2 s | 0 MB |
-| [Moodle](https://github.com/moodle/moodle) | [4.5.8](https://github.com/moodle/moodle/releases/tag/v4.5.8) | 0 | 0 | 0 | 0 | .2 s | 0 MB |
-| [Nextcloud](https://github.com/nextcloud/server) | [32.0.6](https://github.com/nextcloud/server/releases/tag/v32.0.6) | 0 | 0 | 0 | 0 | .2 s | 0 MB |
-| [Drupal](https://github.com/drupal/drupal) | [11.3.3](https://github.com/drupal/drupal/releases/tag/11.3.3) | 0 | 0 | 0 | 0 | .2 s | 0 MB |
+| [Symfony](https://github.com/symfony/symfony) | [7.4.4](https://github.com/symfony/symfony/releases/tag/v7.4.4) | 0 | 0 | 0 | 0 | .3 s | 0 MB |
+| [API Platform](https://github.com/api-platform/core) | [4.2.15](https://github.com/api-platform/core/releases/tag/v4.2.15) | 0 | 0 | 0 | 0 | .3 s | 0 MB |
+| [Doctrine ORM](https://github.com/doctrine/orm) | [3.6.2](https://github.com/doctrine/orm/releases/tag/3.6.2) | 0 | 0 | 0 | 0 | .3 s | 0 MB |
+| [Sylius](https://github.com/Sylius/Sylius) | [2.1.11](https://github.com/Sylius/Sylius/releases/tag/v2.1.11) | 0 | 0 | 0 | 0 | .3 s | 0 MB |
+| [TYPO3](https://github.com/TYPO3/typo3) | [13.4.25](https://github.com/TYPO3/typo3/releases/tag/v13.4.25) | 0 | 0 | 0 | 0 | .3 s | 0 MB |
+| [Shopware](https://github.com/shopware/shopware) | [6.7.7.1](https://github.com/shopware/shopware/releases/tag/v6.7.7.1) | 0 | 0 | 0 | 0 | .3 s | 0 MB |
+| [PrestaShop](https://github.com/PrestaShop/PrestaShop) | [9.0.3](https://github.com/PrestaShop/PrestaShop/releases/tag/9.0.3) | 0 | 0 | 0 | 0 | .3 s | 0 MB |
+| [Akeneo PIM](https://github.com/akeneo/pim-community-dev) | [2026-2](https://github.com/akeneo/pim-community-dev/releases/tag/2026-2) | 0 | 0 | 0 | 0 | .3 s | 0 MB |
+| [Laravel Framework](https://github.com/laravel/framework) | [12.53.0](https://github.com/laravel/framework/releases/tag/v12.53.0) | 0 | 0 | 0 | 0 | .3 s | 0 MB |
+| [Magento 2](https://github.com/magento/magento2) | [2.4.8](https://github.com/magento/magento2/releases/tag/2.4.8) | 0 | 0 | 0 | 0 | .3 s | 0 MB |
+| [Moodle](https://github.com/moodle/moodle) | [4.5.8](https://github.com/moodle/moodle/releases/tag/v4.5.8) | 0 | 0 | 0 | 0 | .3 s | 0 MB |
+| [Nextcloud](https://github.com/nextcloud/server) | [32.0.6](https://github.com/nextcloud/server/releases/tag/v32.0.6) | 0 | 0 | 0 | 0 | .3 s | 0 MB |
+| [Drupal](https://github.com/drupal/drupal) | [11.3.3](https://github.com/drupal/drupal/releases/tag/11.3.3) | 0 | 0 | 0 | 0 | .3 s | 0 MB |
 
 > Created with standard GitHub Action
