@@ -6,7 +6,7 @@
         "php": "^8.2"
     },
     "require-dev": {
-        "aeliot/todo-registrar-contracts": "*"
+        "aeliot/todo-registrar-contracts": "^3.0"
     },
     "config": {
         "sort-packages": true

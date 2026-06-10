@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 use Aeliot\TodoRegistrar\Config;
 use Aeliot\TodoRegistrar\Service\File\Finder;
-use Aeliot\TodoRegistrarContracts\RegistrarFactoryInterface;
-use Aeliot\TodoRegistrarContracts\RegistrarInterface;
-use Aeliot\TodoRegistrarContracts\TodoInterface;
+use Aeliot\TodoRegistrarContracts\Registrar\RegistrarFactoryInterface;
+use Aeliot\TodoRegistrarContracts\Registrar\RegistrarInterface;
+use Aeliot\TodoRegistrarContracts\Todo\TodoInterface;
 
 class StubRegistrar implements RegistrarInterface
 {
