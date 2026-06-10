@@ -38,6 +38,7 @@ return (new Config())
     ->setFinder(
         (new Finder())
             ->in('/code')
+            ->name('/\.(?:php|ya?ml)$/')
             ->exclude(['vendor'])
             ->notPath('/\/[Ff]ixtures\//')
     )
