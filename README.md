@@ -8,7 +8,9 @@ like GitHub Issues, GitLab, JIRA, and others.
 
 The latest report is always available in **[benchmark.md](benchmark.md)**.
 
-> It is created by the running on standard GitHub Action.
+1. It is created by the running on standard GitHub Action.
+2. Use tags `trX.X.X` for the comparing of different versions.
+3. According to benchmark **TODO Registrar became quicker 20% since version 4.0.0**.
 
 ## How it works
 
